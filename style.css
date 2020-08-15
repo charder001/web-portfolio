@@ -3,7 +3,77 @@ html {
 
 }
 
-body {
-    margin: 0;
+body{
     padding: 0;
+    margin: 0 auto 0 auto;
+    max-width: 60em;
+
+}
+
+
+header {
+    text-align: center;
+    margin: 20em 0 30em 0;
+}
+
+
+h3 {
+    margin-top: 15em;
+    text-align: center;
+}
+
+article p {
+    width: 30em;
+    margin-left: 1em;
+}
+
+footer {
+    margin-top: 25em;
+    margin-bottom: 20em;
+}
+
+.right-text {
+    display: flex;
+}
+
+
+.right-text-content {
+    width: 50%;
+    margin: 1em;
+}
+
+#rick {
+    background: url(img/rick.jpg);
+    width: 50%;
+    height: 40em;
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+#bike{
+    background: url(img/bike.jpg);
+    width: 100%;
+    margin: 0 0 10em 0;
+    height: 60em;
+    background-size: cover;
+    background-position: 50% 25%;
+}
+
+.skills-content {
+    margin: 20em 0 20em 0;
+}
+
+#skills {
+    width: 50%;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin: 10em 0 10em 0;
+}
+
+.links {
+    margin-left: 1em;
 }
