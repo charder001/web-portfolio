@@ -11,7 +11,7 @@ body{
 }
 
 main {
-    margin: 1em;
+    margin: 0em;
 }
 
 header {
@@ -107,7 +107,7 @@ footer {
   
   /* The progress container (grey background) */
   .progress-container {
-    width: 100%;
+    width: 60em;
     height: 8px;
     background: #ccc;
   }
