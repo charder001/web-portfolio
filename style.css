@@ -11,7 +11,7 @@ body{
 }
 
 main {
-    margin: 0em;
+    margin: 1em;
 }
 
 header {
@@ -20,7 +20,9 @@ header {
 }
 
 
-
+h3{
+    margin-top: 3em;
+}
 
 article p {
     /* width: 30em; */
@@ -61,7 +63,7 @@ footer {
 }
 
 .project .right-text-content {
-    margin: 3em 1em 1em 1em;
+    margin: 5em 1em 1em 1em;
 }
 
 #rick {
@@ -71,6 +73,8 @@ footer {
     background-size: cover;
     background-position: 50% 10%;
 }
+
+
 
 #bike{
     background: url(img/bike.jpg);
@@ -96,9 +100,7 @@ footer {
     margin: 10em 0 10em 0;
 }
 
-.links {
-    margin-left: 1em;
-}
+
 
 /* Style the header: fixed position (always stay at the top) */
 .scroller {
@@ -155,5 +157,12 @@ body{
 
     article p {
         margin-left: 0;
+    }
+
+    .project .right-text-content {
+        margin: 1em 1em 1em 0em;
+    }
+    .links {
+        margin-left: 0em;
     }
 }
