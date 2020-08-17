@@ -33,6 +33,8 @@ footer {
     margin-bottom: 20em;
 }
 
+
+
 .project {
     display: flex;
 }
@@ -49,6 +51,8 @@ footer {
 .right-text {
     display: flex;
 }
+
+
 
 
 .right-text-content {
@@ -123,3 +127,33 @@ footer {
       margin-top: 15em;
       font-size: 2em;
   }
+
+  @media(max-width: 556px) {
+body{
+    margin: 1em;
+}
+
+    .project {
+        display: block;
+    }
+
+    .right-text {
+        display: block;
+    }
+
+    .left-content {
+        width: 100%;
+    }
+
+    .right-text-content {
+        width: 100%;
+        margin: 1em;
+    }
+    #rick {
+        width: 100%;
+    }
+
+    article p {
+        margin-left: 0;
+    }
+}
